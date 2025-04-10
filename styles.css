@@ -1,10 +1,12 @@
 @import "css/header.css";
-
+@import "css/banner.css";
+@import "css/footer.css";
 :root {
-  --primary-grey: #4f4f51;
+  --primary-grey: #39393b;
   --primary-grey-light: #4f4f51;
   --primary-beige: #b68867;
   --primary-beige-light: #c5a085;
+  --primary-beige-dark: #b6886733;
 
   --background-black: #000;
   --background-dark-grey: #1e1e20;
@@ -23,4 +25,10 @@ body {
 a {
   color: var(--text-color-white);
   text-decoration: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
