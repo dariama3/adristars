@@ -20,7 +20,7 @@ footer {
 .footer-logo img {
   width: 126px;
 }
-form {
+footer form {
   display: flex;
   flex-direction: column;
 }
@@ -81,7 +81,7 @@ form {
     flex-direction: column;
     gap: 32px;
   }
-  form {
+  footer form {
     width: 100%;
   }
   #email {

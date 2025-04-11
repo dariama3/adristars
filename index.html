@@ -8,6 +8,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Flexicar Test</title>
+    <link rel="stylesheet" href="css/order.css" />
   </head>
   <body>
     <header>
@@ -48,21 +49,229 @@
       </div>
     </header>
     <main>
-      <section></section>
-      <section class="banner">
-        <div class="banner-container">
-          <img src="assets/banner-avatars.svg" alt="banner-avatars" />
-          <div class="banner-text">
-            <h3>Still have questions?</h3>
-            <p>
-              Can’t find the answer you’re looking for? Please chat to our
-              friendly team.
-            </p>
+      <section class="order">
+        <div class="order-container">
+          <div class="order-details">
+            <h2>Volkswagen Touareg</h2>
+            <p><span class="price">32,98 </span>EUR/day</p>
+            <div class="order-details-list">
+              <h3>Included in Price</h3>
+              <ul class="list">
+                <li>Airport/City Fee</li>
+                <li>Local Tax</li>
+                <li>Registration Fee</li>
+                <li>Unlimited Mileage</li>
+              </ul>
+              <ul class="list-grid">
+                <li class="list-doors">5 Doors</li>
+                <li class="list-suitcase">3 Suitcase</li>
+                <li class="list-manual">5 Manual</li>
+                <li class="list-passengers">5 Passengers</li>
+              </ul>
+            </div>
           </div>
-          <button class="contact-button">Contact Us</button>
+          <div class="order-image-container">
+            <img
+              class="order-image-back"
+              src="assets/order-back.svg"
+              alt="back"
+            />
+            <img class="order-image" src="assets/order.svg" alt="order" />
+          </div>
+          <div class="order-button-container">
+            <button class="order-button">Proceed to Booking</button>
+          </div>
+        </div>
+        <div class="order-extras">
+          <h4>Add on extras</h4>
+          <div class="extras-container">
+            <button class="extras-button active">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+            <button class="extras-button">
+              <img
+                class="icon"
+                src="assets/extras-eternity.svg"
+                alt="eternity"
+              />
+              <span>Unlimited Mileage <span class="price">15 EUR</span></span>
+              <img class="add" src="assets/extras-plus.svg" alt="plus" />
+            </button>
+          </div>
+        </div>
+        <div class="order-insurance">
+          <h4>Insurance</h4>
+          <div class="insurance-container">
+            <div class="insurance-plan">
+              <p>No Insurance</p>
+              <h3 class="price">Free</h3>
+            </div>
+            <p class="notice">Important Notice:</p>
+            <ul class="insurance-list">
+              <li class="insurance-attention">
+                You are fully responsible for any damage to the vehicle.
+              </li>
+              <li class="insurance-attention">
+                Full repair costs will be charged in case of an accident or
+                damage (no financial limit).
+              </li>
+            </ul>
+            <span class="insurance-attention-span"
+              >We strongly recommend choosing one of the insurance options to
+              ensure a worry-free journey.</span
+            >
+          </div>
+          <div class="insurance-container active">
+            <div class="insurance-plan">
+              <p>Basic Insurance</p>
+              <h3 class="price">15 EUR/day</h3>
+            </div>
+            <ul class="insurance-list">
+              <li>
+                Coverage for vehicle damage in case of an accident (with
+                excess).
+              </li>
+              <li>Limited financial liability with a deductible/excess.</li>
+              <li>
+                Partial coverage for car body damages (does not cover tires,
+                windows, roof, or undercarriage).
+              </li>
+            </ul>
+          </div>
+          <div class="insurance-container">
+            <div class="insurance-plan">
+              <p>Comprehensive Insurance</p>
+              <h3 class="price">25 EUR/day</h3>
+            </div>
+            <ul class="insurance-list">
+              <li>
+                Full coverage for all damages (including tires, windows, roof,
+                and undercarriage).
+              </li>
+              <li>Theft protection.</li>
+              <li>No deductible/excess (or minimal excess).</li>
+              <li>Roadside assistance in case of breakdowns or accidents.</li>
+            </ul>
+          </div>
         </div>
       </section>
+      <div class="order-checkout">
+        <h4>Confirming Order</h4>
+        <form>
+          <label
+            >First Name<input type="text" placeholder="Enter Your First Name"
+          /></label>
+          <label
+            >Last Name<input type="text" placeholder="Enter Your Last Name"
+          /></label>
+          <label
+            >Email<input type="email" placeholder="olivia@untitledui.com"
+          /></label>
+          <label
+            >Phone<input type="tel" placeholder="+1 (555) 000-0000"
+          /></label>
+          <div class="checkout-summary">
+            <ul>
+              <li>Date</li>
+              <li>Jan 1</li>
+              <li>Location</li>
+              <li>London, UK</li>
+            </ul>
+            <p>Total <span>62,98 EUR</span></p>
+          </div>
+          <label class="checkbox"
+            ><input type="checkbox" id="terms" name="terms" />I accept the terms
+            & conditions</label
+          >
+          <div class="checkout-buttons">
+            <button class="checkout-button cash">Pay Cash</button>
+            <button class="checkout-button">Pay Card</button>
+          </div>
+        </form>
+      </div>
     </main>
+    <section class="banner">
+      <div class="banner-container">
+        <img src="assets/banner-avatars.svg" alt="banner-avatars" />
+        <div class="banner-text">
+          <h3>Still have questions?</h3>
+          <p>
+            Can’t find the answer you’re looking for? Please chat to our
+            friendly team.
+          </p>
+        </div>
+        <button class="contact-button">Contact Us</button>
+      </div>
+    </section>
     <footer>
       <div class="footer-container">
         <div class="footer-logo">
